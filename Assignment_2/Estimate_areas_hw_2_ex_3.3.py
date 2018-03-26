@@ -6,24 +6,11 @@ Created on Tue Jan 30 05:26:37 2018
 @author: francisabari
 """
 
-#Home Work_2_Ex_3.3 (Geography:estimate area)
-
-#Calculate estimate area enclosed by four cities 
-
 import math
 
-#Get the longitude and latitude of given four cities.
-
-#GPS for Atlanta, Georgia is 
 Atlantax, Atlantay=51.51, -0.16
-
-#GPS for Orlando, Florida
 Orlandox, Orlandoy=28.54, -81.38 
-
-#Savannah, Georgia
 Savannahx, Savannahy=32.08, -81.1
-
-#Charlotte, N Carolina
 Charlottex, Charlottey=35.23, -80.84 
 
 #distance between Atlanta and Savannah on earth's surface
@@ -74,8 +61,6 @@ area2= (s * (s-dAS) * (s-dAO) * (s-dSO)) **0.5
 #of two triangles made by the same cities.
 
 area=area1+area2 
-
-#display area of polygon made by 4 cities.
 
 print("The estimate area enclosed by 4 cities is " + str(round(area,2)),"sq.km.")
 
