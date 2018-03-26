@@ -1,0 +1,7 @@
+This book assumes that you are a new programmer with no prior knowledge of programming. 
+So, what is programming? Programming solves problems by creating solutions, writing 
+programs in a programming language. The fundamentals of problem solving and programming 
+are the same regardless of which programming language you use. You can learn programming 
+using any high-level programming language such as Python, Java, C++, or C#. 
+Once you know how to program in one language, it is easy to pick up other languages, 
+because the basic techniques for writing programs are the same.
